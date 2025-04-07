@@ -21,32 +21,38 @@
     }
 
     /* Navbar */
-    nav {
-        background: #333;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        padding: 10px 0;
-        text-align: center;
-        z-index: 1000;
-    }
-    nav ul {
-        list-style: none;
-        padding: 0;
-    }
-    nav ul li {
-        display: inline;
-        margin: 0 15px;
-    }
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    nav ul li a:hover {
-        color: #ff6600;
-    }
+     @media (max-width: 992px) {
+         nav {
+             background: #333;
+             position: fixed;
+             width: 100%;
+             top: 0;
+             left: 0;
+             padding: 10px 0;
+             text-align: center;
+             z-index: 1000;
+         }
+
+         nav ul {
+             list-style: none;
+             padding: 0;
+         }
+
+         nav ul li {
+             display: inline;
+             margin: 0 15px;
+         }
+
+         nav ul li a {
+             color: white;
+             text-decoration: none;
+             font-size: 18px;
+         }
+
+         nav ul li a:hover {
+             color: #ff6600;
+         }
+     }
 
     /* Revised Header Styles */
     header {
@@ -502,10 +508,12 @@
                 <img src="archivement7.jpg" alt="Achievement 2">
             </div>
         </div>
+        <!---------------------------button to view all achivements----------------------------------------->
       <button class="achievement-btn" onclick="window.location.href='https://learn.microsoft.com/en-us/users/japhesmurithi-6822/achievements?wt.' +
        'mc_id=pvue_msft_webpage_wwl%20&source=docs&tab=tab-learning-paths'">
   VIEW ALL ACHIEVEMENTS ON MICROSOFT LEARN
 </button>
+        <!-----------------------------------------the  projects section---------------------------------------------------------------->
     </section>
     <h2>Projects</h2>
     <!-- Projects Section -->
@@ -528,6 +536,7 @@
     </section>
     <br>
     <br>
+    <!---------------------------------------button to view all projects in git hub--------------------------------------->
     <button class="achievement-btn" onclick="window.location.href='https://github.com/JAPHES'">
   VIEW ALL PROJECTS ON GITHUB
 </button>
@@ -546,7 +555,7 @@
     </section>
     <br>
     <br>
-    <!-- Three Column Section Below the Form -->
+    <!-- Three Column Section Below the Form ---------------------------------------------------------------------------------------->
     <div class="columns-container">
         <div class="column">
             <i class="fas fa-map-marker-alt fa-2x"></i> <!-- Address Icon -->
@@ -570,7 +579,7 @@
     </div>
     <br>
     <br>
-    <!-------------- Footer Section with Icons -------------------------------------->
+    <!-------------- Footer Section with Icons ----------------------------------------------------------------------------------------------->
     <footer>
         <p>Follow me on these sites. Thank you!</p>
         <ul class="social-links">
