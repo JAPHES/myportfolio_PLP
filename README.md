@@ -15,8 +15,7 @@ This portfolio highlights:
 
 - HTML5
 - CSS3
-- Bootstrap 5
-- Font Awesome
+- javascript
 
 ## 🧰 Features
 
@@ -28,7 +27,7 @@ This portfolio highlights:
 
 ## 📸 Preview
 
-![Screenshot](screenshot.png) <!-- Add your screenshot file in the root directory -->
+
 
 ## 📂 Project Structure
 
